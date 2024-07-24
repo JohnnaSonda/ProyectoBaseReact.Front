@@ -1,0 +1,27 @@
+.home-form {
+	display: flex;
+	align-items: end;
+	gap: 16px;
+	flex-wrap: wrap;
+	margin-bottom: 16px;
+
+	@media (width <= 430px) {
+		.sonda_input-text,
+		input {
+			width: 100%;
+		}
+
+		.ant-spin-nested-loading,
+		button {
+			width: 100%;
+		}
+	}
+}
+
+.sonda_column-with-buttons {
+	display: block;
+}
+
+.sonda_table-options-btn {
+	display: none !important;
+}
